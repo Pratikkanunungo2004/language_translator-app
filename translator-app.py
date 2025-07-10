@@ -2,7 +2,6 @@ import streamlit as st
 from deep_translator import GoogleTranslator
 from better_profanity import profanity
 
-# Initialize profanity filter
 profanity.load_censor_words()
 
 languages = {
@@ -26,7 +25,7 @@ languages = {
     "Urdu": "ur"
 }
 
-st.title("🌍 Language Translator App")
+st.title("🌍 AI-Based Language Translator App")
 
 text = st.text_input("Enter text in English:")
 lang_choice = st.selectbox("Select output language:", sorted(languages.keys()))
