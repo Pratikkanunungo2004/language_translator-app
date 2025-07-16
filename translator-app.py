@@ -1,6 +1,5 @@
 import streamlit as st
 from deep_translator import GoogleTranslator 
-from deep_translator import MicrosoftTranslator
 from better_profanity import profanity
 
 profanity.load_censor_words()
@@ -8,8 +7,8 @@ profanity.load_censor_words()
 languages = {
     "Arabic": "ar",
     "Bengali": "bn",
-    "Chinese": "zh-Hans",
     "French": "fr",
+    "Dutch": "nl",
     "German": "de",
     "Gujarati": "gu",
     "Hindi": "hi",
