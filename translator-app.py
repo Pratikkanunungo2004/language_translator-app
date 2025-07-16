@@ -7,7 +7,7 @@ profanity.load_censor_words()
 languages = {
     "Arabic": "ar",
     "Bengali": "bn",
-    "Chinese": "zh",
+    "Chinese": "zh-CN",
     "French": "fr",
     "German": "de",
     "Gujarati": "gu",
